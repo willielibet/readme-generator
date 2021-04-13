@@ -31,16 +31,16 @@ questions.prompt([
     //     name: "installation",
     //     message: "What is the directory structure?"
     // },
-    // {
-    //     type: "input",
-    //     name: "installation",
-    //     message: "What are the installation steps?"
-    // },
-    // {
-    //     type: "input",
-    //     name: "usage",
-    //     message: "Enter usage"
-    // },
+    {
+        type: "input",
+        name: "installation",
+        message: "What are the installation steps?"
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "Enter usage"
+    },
     // {
     //     type: "input",
     //     name: "license",
