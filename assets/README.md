@@ -1,11 +1,19 @@
-# readme generator
+# Title
+  README Generator
   # Description
-  to generate a readme.md file
+  Create a README.md Generator
 ## Table of Contents  Table of Contents
+  [Title](#title)
+  [Description](#description)
   [Installation](#installation)
   [Usage](#usage)
   ## Installation
-  npm i inquirer
+  npm init -y and npm i inquirer
   ## Usage
-  node index.js
-   
+  node index.js and answer given questions
+  [Licenses](#licenses)
+  MIT 
+  -[contribution](#contribution)
+-[test](#test)
+-[username](#username)
+-[profile](#profile)

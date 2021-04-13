@@ -26,11 +26,6 @@ questions.prompt([
         name: "tableOfContents",
         message: "Enter Table of Contents"
     },
-    // {
-    //     type: "input",
-    //     name: "installation",
-    //     message: "What is the directory structure?"
-    // },
     {
         type: "input",
         name: "installation",
@@ -41,26 +36,27 @@ questions.prompt([
         name: "usage",
         message: "Enter usage"
     },
-    // {
-    //     type: "input",
-    //     name: "license",
-    //     message: "What is the license?"
-    // },
-    // {
-    //     type: "input",
-    //     name: "contributions",
-    //     message: "Who contributed to this project?"
-    // },
-    // {
-    //     type: "input",
-    //     name: "test",
-    //     message: "How do you test this project?"
-    // },
+    {
+        type: "input",
+        name: "license",
+        message: "What is the license?"
+    },
+    {
+        type: "input",
+        name: "contributions",
+        message: "Who contributed to this project?"
+    },
+    {
+        type: "input",
+        name: "test",
+        message: "How do you test this project?"
+    },
     {
         type: "input",
         name: "questions",
         message: "Do you have any questions?"
-    }
+    },
+  
     ]).then((data) => {
     // response.confirm === response.password
     //   ? console.log('Success!')
