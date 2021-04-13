@@ -1,19 +1,25 @@
 # Title
-  README Generator
+  Readme Generator
   # Description
-  Create a README.md Generator
+  This is a node js app to creates a README.md file.
 ## Table of Contents  Table of Contents
   [Title](#title)
   [Description](#description)
   [Installation](#installation)
   [Usage](#usage)
+  [Licenses](#licenses)
+  -[contribution](#contribution)
+  -[test](#test)
+
   ## Installation
   npm init -y and npm i inquirer
   ## Usage
-  node index.js and answer given questions
-  [Licenses](#licenses)
+  node index.js & answer given questions.
+
+  ## Licenses
   MIT 
-  -[contribution](#contribution)
--[test](#test)
--[username](#username)
--[profile](#profile)
+  ## Contribution
+  undefined 
+
+  ## Test
+Run node index.js and answer the questions provided.
