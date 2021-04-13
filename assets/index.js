@@ -8,7 +8,7 @@ const fs = require('fs');
 
 const questions = require('inquirer');
 
-// const generateMarkdown = require("./assets/utils/generateMarkdown");
+const generateMarkdown = require('./utils/generateMarkdown');
 
 questions.prompt([ 
     {
@@ -65,15 +65,17 @@ questions.prompt([
     // response.confirm === response.password
     //   ? console.log('Success!')
     //   : console.log('You forgot your password already?!')
+        // dataString = data.toString();
         console.log(data);
 
         // fs.writeFile(fileName.toUpperCase().split(' ').join('').md, data, function (error){
-            fs.writeFile("README.md", data.toString(), function (error){
-                    if(err) {
-                        console.log(err)
-                    }
-                    console.log("Success! The README file was created!");
-                });
+            // fs.writeFile("README.md", gMarkdown(data.toString()), function (error){
+        fs.writeFile("README.md", generateMarkdown(data), function (error){
+            if(err) {
+                console.log(err)
+            }
+            console.log("Success! The README file was created!");
+        });
     });
 
 
