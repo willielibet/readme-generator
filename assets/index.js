@@ -24,7 +24,7 @@ questions
 },
 {
     type: "input",
-    name: "toc",
+    name: "content",
     message: "Enter Table of Contents"
 },
 {
@@ -34,34 +34,34 @@ questions
 },
 {
     type: "input",
-    name: "usage",
+    name: "installation",
     message: "What are the installation steps?"
 },
 
 {
     type: "input",
-    name: "contribute",
+    name: "usage",
     message: "Enter usage"
 },
 
 {
     type: "input",
-    name: "github",
+    name: "license",
     message: "What is the license?"
 },
 {
     type: "input",
-    name: "github",
+    name: "contributions",
     message: "Who contributed to this project?"
 },
 {
     type: "input",
-    name: "github",
+    name: "test",
     message: "How do you test this project?"
 },
 {
     type: "input",
-    name: "github",
+    name: "questions",
     message: "Do you have any questions?"
 },
 ]
