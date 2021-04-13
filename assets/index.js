@@ -21,11 +21,11 @@ questions.prompt([
         name: "description",
         message: "Describe the task: "
     },
-    // {
-    //     type: "input",
-    //     name: "content",
-    //     message: "Enter Table of Contents"
-    // },
+    {
+        type: "input",
+        name: "tableOfContents",
+        message: "Enter Table of Contents"
+    },
     // {
     //     type: "input",
     //     name: "installation",
@@ -70,7 +70,7 @@ questions.prompt([
 
         // fs.writeFile(fileName.toUpperCase().split(' ').join('').md, data, function (error){
             // fs.writeFile("README.md", gMarkdown(data.toString()), function (error){
-        fs.writeFile("README.md", generateMarkdown(data), function (error){
+        fs.writeFile("README.md", generateMarkdown(data), function (err){
             if(err) {
                 console.log(err)
             }
