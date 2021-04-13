@@ -1,5 +1,5 @@
 // fs is a Node standard library package for reading and writing files
-// const fs = require('fs');
+const fs = require('fs');
 
 // TODO: Include packages needed for this application
 
@@ -66,6 +66,14 @@ questions.prompt([
     //   ? console.log('Success!')
     //   : console.log('You forgot your password already?!')
         console.log(data);
+
+        // fs.writeFile(fileName.toUpperCase().split(' ').join('').md, data, function (error){
+            fs.writeFile("README.md", data.toString(), function (error){
+                    if(err) {
+                        console.log(err)
+                    }
+                    console.log("Success! The README file was created!");
+                });
     });
 
 
