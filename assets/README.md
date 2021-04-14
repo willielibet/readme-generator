@@ -1,7 +1,7 @@
 # Title
-  Readme Generator
+  Project Generator
   # Description
-  Generates README.md dynamically.
+  Generate README.md
 ## Table of Contents  
   -[Title](#title)
   -[Description](#description)
@@ -12,9 +12,9 @@
   -[Test](#test)
 
   ## Installation
-  nmp init -y and npm i inquirer
+  npm init -y & npm i inquirer
   ## Usage
-  node index.js
+  node index.js and answer given questions.
 
   ## Licenses
   MIT 
@@ -22,4 +22,4 @@
   undefined 
 
   ## Test
-Run node index.js and answer questions.
+node index.js
