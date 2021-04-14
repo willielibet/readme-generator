@@ -1,10 +1,10 @@
 # License 
-  ![APM](https://img.shields.io/apm/l/npm?style=plastic)<br /> This application is covered under the MIT license.
+  ![APM](https://img.shields.io/apm/l/npm?style=plastic)<br /> This application is covered under the Mozilla Public License 1.1 (MPL 1.1) license.
 
   # Title
-  Readme Generator
+##  README.md Generator
   # Description
-  To create a nodejs app to dynamically generate a README.md file.
+  task
 ##  
   [Title](#title)  
   [Description](#description)  
@@ -13,26 +13,26 @@
   [Licenses](#licenses)  
   [Contribution](#contribution)  
   [Test](#test)  
-  [GitHub Username](#username)
+  [GitHub Username](#username)  
   [Email](#email)
 
   ## Installation
-  Open a terminal, and run: npm init -y & npm i inquirer
+  steps
   ## Usage
-  node index.js and answer the provided questions.
+  usage
 
   ## Licenses
-  MIT License
+  Mozilla Public License 1.1 (MPL 1.1)
 
   ## Contribution
-  Willie 
+  willie 
 
   ## Test
-  node index.js and answer the questions.
+  test
 
   ## GitHub User
   willielibet  
-  [GitHub](https://github.com/willielibet)
+  [GitHub](https://github.com/willielibet)   
 
   ## Email
   willie@email.com

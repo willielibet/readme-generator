@@ -49,7 +49,7 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
   # Title
-  ${data.title}
+##  ${data.title}
   # Description
   ${data.description}
 ## ${data.tableOfContents} 
@@ -60,7 +60,7 @@ function generateMarkdown(data) {
   [Licenses](#licenses)  
   [Contribution](#contribution)  
   [Test](#test)  
-  [GitHub Username](#username)
+  [GitHub Username](#username)  
   [Email](#email)
 
   ## Installation
