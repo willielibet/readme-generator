@@ -4,23 +4,23 @@ function renderLicenseBadge(license) {
   
   if(license == "Apache License, Version 2.0"){
     // license = "![AUR license](https://img.shields.io/aur/license/node?color=GREEN&label=LICENSE&style=plastic)";
-    license = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  ";
+    license = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br />";
     license += " This application is covered under the Apache License, Version 2.0.";
     return license;
   }
   else if(license == "BSD-3-Clause"){
     // license = "![PyPI - License](https://img.shields.io/pypi/l/node?label=LICENSE&style=plastic)";
-    license = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  ";
+    license = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br />";
     license += " This application is covered under the BSD-3-Clause license.";
     return license;
   }
   else if(license == "MIT License"){
-    license = "![APM](https://img.shields.io/apm/l/npm?style=plastic)  ";
+    license = "![APM](https://img.shields.io/apm/l/npm?style=plastic)<br />";
     license += " This application is covered under the MIT license.";
     return license;
   }
   else if(license == "Mozilla Public License 1.1 (MPL 1.1)"){
-    license = "![APM](https://img.shields.io/apm/l/npm?style=plastic)  ";
+    license = "![APM](https://img.shields.io/apm/l/npm?style=plastic)<br />";
     license += " This application is covered under the Mozilla Public License 1.1 (MPL 1.1) license.";
     return license;
   }
