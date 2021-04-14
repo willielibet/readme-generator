@@ -1,10 +1,10 @@
 # License 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) This application is covered under the Apache License, Version 2.0.
 
   # Title
-  pt
+  READEME.md Generator
   # Description
-  pt
+  To create a node.js app that generates a README.md.
 ## Table of Contents 
   -[Title](#title)  
   -[Description](#description)  
@@ -15,9 +15,9 @@
   -[Test](#test)  
 
   ## Installation
-  pt
+  On a terminal, run npm init -y & npm i inquierer
   ## Usage
-  pt
+  node index.js
 
   ## Licenses
   Apache License, Version 2.0
@@ -26,4 +26,4 @@
   undefined 
 
   ## Test
-pt
+test

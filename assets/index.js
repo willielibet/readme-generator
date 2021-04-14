@@ -7,12 +7,9 @@ const fs = require('fs');
 // const questions = [];
 
 const questions = require('inquirer');
-
 const generateMarkdown = require('./utils/generateMarkdown');
-// const generateBadge = require('./utils/generateBadge');
 
 //   //Add in license badge here!!
-//   generateBadge(data);
 
 questions.prompt([ 
     {
@@ -68,10 +65,6 @@ questions.prompt([
     },
   
     ]).then((data) => {
-    // response.confirm === response.password
-    //   ? console.log('Success!')
-    //   : console.log('You forgot your password already?!')
-        // dataString = data.toString();
         console.log(data);
 
         // fs.writeFile(fileName.toUpperCase().split(' ').join('').md, data, function (error){
