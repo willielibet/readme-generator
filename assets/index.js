@@ -9,6 +9,10 @@ const fs = require('fs');
 const questions = require('inquirer');
 
 const generateMarkdown = require('./utils/generateMarkdown');
+// const generateBadge = require('./utils/generateBadge');
+
+//   //Add in license badge here!!
+//   generateBadge(data);
 
 questions.prompt([ 
     {
@@ -42,11 +46,7 @@ questions.prompt([
         name: "license",
         choices: [
             "Apache License, Version 2.0",
-            "Code Project Open License (CPOL)",
-            "Eclipse Public License 1.0",
-            "Common Development and Distribution License (CDDL)",
-            "Common Public License Version 1.0 (CPL)",
-            "Microsoft Public License (Ms-PL)",
+            "BSD-3-Clause",
             "MIT License",
             "Mozilla Public License 1.1 (MPL 1.1)"
         ]
