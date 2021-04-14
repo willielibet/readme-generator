@@ -37,9 +37,19 @@ questions.prompt([
         message: "Enter usage"
     },
     {
-        type: "input",
+        type: "list",
+        message: "Which license was used for this project?",
         name: "license",
-        message: "What is the license?"
+        choices: [
+            "Apache License, Version 2.0",
+            "Code Project Open License (CPOL)",
+            "Eclipse Public License 1.0",
+            "Common Development and Distribution License (CDDL)",
+            "Common Public License Version 1.0 (CPL)",
+            "Microsoft Public License (Ms-PL)",
+            "MIT License",
+            "Mozilla Public License 1.1 (MPL 1.1)"
+        ]
     },
     {
         type: "input",
