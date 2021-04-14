@@ -75,15 +75,6 @@ questions.prompt([
     });
 
 
-// function createREAME(fileName, data) {
-
-//     fs.writeFile(fileName.toUpperCase().split(' ').join('').md, data, function (error){
-//         if(err) {
-//             console.log(err)
-//         }
-//         console.log("Success! The README file was created!");
-//     });
-// }  
 
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
