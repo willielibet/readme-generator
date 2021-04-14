@@ -25,7 +25,7 @@ questions.prompt([
     {
         type: "input",
         name: "tableOfContents",
-        message: "Enter Table of Contents"
+        message: "Enter: Table of Contents"
     },
     {
         type: "input",
@@ -63,6 +63,16 @@ questions.prompt([
         name: "questions",
         message: "Do you have any questions?"
     },
+    {
+        type: "input",
+        name: "username",
+        message: "What is your GiHub username?"
+    },    
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email?"
+    }
   
     ]).then((data) => {
         console.log(data);

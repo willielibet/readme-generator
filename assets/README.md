@@ -1,29 +1,38 @@
 # License 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br /> This application is covered under the Apache License, Version 2.0.
+  ![APM](https://img.shields.io/apm/l/npm?style=plastic)<br /> This application is covered under the MIT license.
 
   # Title
-  p
+  Readme Generator
   # Description
-  p
-## Table of Contents 
-  -[Title](#title)  
-  -[Description](#description)  
-  -[Installation](#installation)  
-  -[Usage](#usage)  
-  -[Licenses](#licenses)  
-  -[Contribution](#contribution)  
-  -[Test](#test)  
+  To create a nodejs app to dynamically generate a README.md file.
+##  
+  [Title](#title)  
+  [Description](#description)  
+  [Installation](#installation)  
+  [Usage](#usage)  
+  [Licenses](#licenses)  
+  [Contribution](#contribution)  
+  [Test](#test)  
+  [GitHub Username](#username)
+  [Email](#email)
 
   ## Installation
-  p
+  Open a terminal, and run: npm init -y & npm i inquirer
   ## Usage
-  p
+  node index.js and answer the provided questions.
 
   ## Licenses
-  Apache License, Version 2.0
+  MIT License
 
   ## Contribution
-  undefined 
+  Willie 
 
   ## Test
-p
+  node index.js and answer the questions.
+
+  ## GitHub User
+  willielibet  
+  [GitHub](https://github.com/willielibet)
+
+  ## Email
+  willie@email.com
