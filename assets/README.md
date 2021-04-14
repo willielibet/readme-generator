@@ -1,23 +1,23 @@
 # Title
-  Project Generator
+  PT
   # Description
-  Generate README.md
-## Table of Contents  
-  -[Title](#title)
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[Licenses](#licenses)
-  -[Contribution](#contribution)
-  -[Test](#test)
+  Des
+## Table of Contents 
+  -[Title](#title)  
+  -[Description](#description)  
+  -[Installation](#installation)  
+  -[Usage](#usage)  
+  -[Licenses](#licenses)  
+  -[Contribution](#contribution)  
+  -[Test](#test)  
 
   ## Installation
-  npm init -y & npm i inquirer
+  npm i
   ## Usage
-  node index.js and answer given questions.
+  node je
 
   ## Licenses
-  MIT 
+  mit 
   ## Contribution
   undefined 
 
