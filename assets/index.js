@@ -1,16 +1,11 @@
+// TODO: Include packages needed for this application.
 // fs is a Node standard library package for reading and writing files
 const fs = require('fs');
-
-// TODO: Include packages needed for this application
-
-// TODO: Create an array of questions for user input
-// const questions = [];
-
 const questions = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-//   //Add in license badge here!!
-
+//Add in license badge here!!
+// TODO: Create an array of questions for user input
 questions.prompt([ 
     {
         type: "input",
@@ -25,7 +20,7 @@ questions.prompt([
     {
         type: "input",
         name: "tableOfContents",
-        message: "Enter: Table of Contents"
+        message: "Press Enter for Table of Contents heading!"
     },
     {
         type: "input",
@@ -84,25 +79,24 @@ questions.prompt([
         message: "Who is the author?"
     }
     ]).then((data) => {
-        console.log(data);
-
         //source: https://www.freecodecamp.org/news/how-to-capitalize-words-in-javascript/
         let author = `${data.author}`;
         //split author's first and last names into an array of words to
         //manipulate each word individually. 
         author = author.split(" ");
 
-        //iterate over each word
+        //iterate over each word and capitalize the first letter of each.
         for(let i=0; i < author.length; i++) {
             author[i] = author[i][0].toUpperCase() + author[i].substr(1);
         }
 
-        //join the words
-        author = author.join(' '); //.replace(/,/g, ' ');
+        //join the words coming out of the for loop above.
+        //author.join(' '); returns comma separated like [Willie,Libet].
+        //assigning author.join(' '); to author gets rid of the commas 
+        //returning [Willie Libet] if the author's name is willie libet.
+        author = author.join(' '); 
     
         // author = author[0].toUpperCase() + author.substring(1);
-        console.log("Author is: " + author);
-
 
         // fs.writeFile(fileName.toUpperCase().split(' ').join('').md, data, function (error){
             // fs.writeFile("README.md", gMarkdown(data.toString()), function (error){

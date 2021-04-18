@@ -110,8 +110,12 @@ function generateMarkdown(data, author) {
   [Test](#test)  
   [Questions](#questions)
 
+  ## Description
+  ${data.description}
+
   ## Installation
   ${data.installation}
+  
   ## Usage
   ${data.usage}
 
